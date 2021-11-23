@@ -1,0 +1,9 @@
+* 多文件操作
+	* Buffer 打开一个文件的内缓存区
+		* :ls 列举目前的缓冲区  :b n 跳转到第n个的缓冲区 
+      	* Window Buffer可视化的分隔区域
+		* :vs 垂直分隔  :sp 水平分隔
+		* 窗口切换: ctrl + w + h/j/k/l
+ 	* Tab 可以组织几个Window为一个工作区		
+		* :tabe filename
+		* gt 切换到下一标签页
