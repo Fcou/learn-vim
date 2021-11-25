@@ -21,3 +21,11 @@
         * : normal @a 在选中行执行操作
 * 补全
     * ctrl + x 补全代码
+* 更换配色
+    * :colorscheme 显示当前配色
+    * :colorscheme ctrl+d 显示所有配色
+    * :colorscheme 配色名 修改配色
+    * 从网上下载 vim colorscheme
+        * 参考https://github.com/w0ng/vim-hybrid
+### vim配置
+* 
