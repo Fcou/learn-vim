@@ -1,0 +1,31 @@
+* 寄存器
+    * 默认我们使用d删除或者y复制的内容都放到了“无名寄存器”
+    * 通过 "{register} 指定寄存器，不指定默认使用无名寄存器
+        * "ayim 复制一个单词到寄存器a中
+        * reg a 查看寄存器a中的信息
+        * "ap 从寄存器a中粘贴出内容
+    * 系统寄存器
+        * "+
+        * :set clipboard=unnamed
+* 宏
+    * 介绍
+        * 宏可以看做一系列命令的合集
+        * 可以使用宏“录制”一系列操作，然后用于“回放”
+        * 擅长处理多行文本
+    * 录制 
+        * q{register}录制到寄存器中
+        * @{register}回放寄存器中保存的一系列命令
+    * 例子
+        * 对一行qa,录制操作，q结束录制
+        * v 选择需要的行
+        * : normal @a 在选中行执行操作
+* 补全
+    * ctrl + x 补全代码
+* 更换配色
+    * :colorscheme 显示当前配色
+    * :colorscheme ctrl+d 显示所有配色
+    * :colorscheme 配色名 修改配色
+    * 从网上下载 vim colorscheme
+        * 参考https://github.com/w0ng/vim-hybrid
+### vim配置
+* 
